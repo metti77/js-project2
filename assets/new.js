@@ -1,33 +1,12 @@
-var today=new Date().getDay();  //roze hafte
-var day;
+function findBiggesFraction()  //fuction named
 
-switch (today) {
-    case 0:
-        day="یکشنبه";
-        break;
-        case 1:
-            day="دوشنبه";
-            break;
-            case 2:
-                day="سه شنبه";
-                break;
-                case 3:
-                    day="چارشنبه";
-                    break;
-                    case 4:
-                        day="پنجشنبه";
-                        break;
-                        case 5:
-                            day="جمعه";
-                            break;
-                            case 6:
-                                day="شنبه";
-                                break;
+{  
+a<b ? console.log("a"+a) : console.log("b"+b);
 
-                
-
-    default: "not found";
-        break;
 }
-console.log("امروز:" +day);
+
+var a=5/8;
+var b=8/3;
+
+findBiggesFraction();
 
