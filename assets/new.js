@@ -1,8 +1,12 @@
-var person= {  //object
-    name: "alex",
-    family:"cezar",
+var course={
+    title:"had",
     age:45,
-    address:"usa"
+    time:1,
+    views:0,
+    updateview:function () {    //anonymous f
+        return ++course.views;   //1 ezaf per view 
+    }
 }
-console.log(person);
+course.updateview();      //farakhani in brye view 
 
+console.log(course);
